@@ -18,10 +18,11 @@ This deep learning project leverages facial recognition technology to detect fac
 
  - [License](#license)
 ## Demo
-This is the streamlit interface
-
-![demoimage](https://github.com/hala-aj/Age-and-Gender-Prediction/blob/main/media/streamlit_1.png?raw=true)
-![demoimage](https://github.com/hala-aj/Age-and-Gender-Prediction/blob/main/media/streamlit_2.png?raw=true)
+<p align="center">
+This is the streamlit interface<br><br>
+<img src="https://github.com/hala-aj/Age-and-Gender-Prediction/blob/main/media/streamlit_1.png?raw=true" alt="demoimage" /><br>
+<img src="https://github.com/hala-aj/Age-and-Gender-Prediction/blob/main/media/streamlit_2.png?raw=true" alt="demoimage" />
+</p>
 
 You can access it through this [link]() or set it up locally by following the [installation steps](#run-locally) provided.
 ## Dataset
