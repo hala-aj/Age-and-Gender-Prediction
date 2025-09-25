@@ -20,14 +20,14 @@ This deep learning project leverages facial recognition technology to detect fac
 ## Demo
 This is the streamlit interface
 
-![demoimage]([/media/streamlit_1](https://github.com/hala-aj/Age-and-Gender-Prediction/blob/main/media/streamlit_1.png?raw=true))
-![demoimage]([/media/streamlit_2](https://github.com/hala-aj/Age-and-Gender-Prediction/blob/main/media/streamlit_2.png?raw=true))
+![demoimage](https://github.com/hala-aj/Age-and-Gender-Prediction/blob/main/media/streamlit_1.png?raw=true)
+![demoimage](https://github.com/hala-aj/Age-and-Gender-Prediction/blob/main/media/streamlit_2.png?raw=true)
 
 You can access it through this [link]() or set it up locally by following the [installation steps](#run-locally) provided.
 ## Dataset
 The [IMDB-Clean](https://www.kaggle.com/datasets/yuulind/imdb-clean) dataset was utilized due to its diverse range of annotated facial images. This dataset, containing over 200k images, is suitable for training deep-learning models due to its structured format and comprehensive labeling.
 
-![imdbimage]([/media/dataset-cover](https://github.com/hala-aj/Age-and-Gender-Prediction/blob/main/media/dataset-cover.png?raw=true))
+![imdbimage](https://github.com/hala-aj/Age-and-Gender-Prediction/blob/main/media/dataset-cover.png?raw=true)
 ## Project Structure
 
     ├──age_training.ipynb
