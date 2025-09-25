@@ -28,7 +28,7 @@ You can access it through this [link]() or set it up locally by following the [i
 ## Dataset
 The [IMDB-Clean](https://www.kaggle.com/datasets/yuulind/imdb-clean) dataset was utilized due to its diverse range of annotated facial images. This dataset, containing over 200k images, is suitable for training deep-learning models due to its structured format and comprehensive labeling.
 <p align="center">
-<img src="[https://github.com/hala-aj/Age-and-Gender-Prediction/blob/main/media/streamlit_1.png?raw=true](https://github.com/hala-aj/Age-and-Gender-Prediction/blob/main/media/dataset-cover.png?raw=true)" alt="dataset" width="100%" />
+<img src="(https://github.com/hala-aj/Age-and-Gender-Prediction/blob/main/media/dataset-cover.png?raw=true)" alt="dataset" width="100%" />
 </p>
 
 ## Project Structure
