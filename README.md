@@ -20,7 +20,7 @@ This deep learning project leverages facial recognition technology to detect fac
 ## Demo
 This is the streamlit interface 
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]()
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://age-and-gender-prediction.streamlit.app/)
 
 <p align="center">
 <img src="https://github.com/hala-aj/Age-and-Gender-Prediction/blob/main/media/streamlit_1.png?raw=true" alt="demoimage1" /><br>
@@ -28,7 +28,7 @@ This is the streamlit interface
 </p>
 
 
-You can access it through this [link]() or set it up locally by following the [installation steps](#run-locally) provided.
+You can access it through this [link](https://age-and-gender-prediction.streamlit.app/) or set it up locally by following the [installation steps](#run-locally) provided.
 ## Dataset
 The [IMDB-Clean](https://www.kaggle.com/datasets/yuulind/imdb-clean) dataset was utilized due to its diverse range of annotated facial images. This dataset, containing over 200k images, is suitable for training deep-learning models due to its structured format and comprehensive labeling.
 <p align="center">
@@ -47,13 +47,13 @@ The [IMDB-Clean](https://www.kaggle.com/datasets/yuulind/imdb-clean) dataset was
     ├──requirements.txt
     └──README.md
        
-1. [age_training.ipynb]() & [gender_training.ipynb](): Training models on the datasets
+1. [age_training.ipynb]() & [gender_training.ipynb](https://github.com/hala-aj/Age-and-Gender-Prediction/blob/main/gender_training.ipynb): Training models on the datasets
 - utilized transfer learning by using the VGG16 pre-trained model
 - used proper augmentation and data preprocessing
 - implemented multiple callbacks to monitor performance
 - unfroze some layers to aid in assigning weights
 
-2. [predictions.py](): Loads trained models to make predictions on detected faces
+2. [predictions.py](https://github.com/hala-aj/Age-and-Gender-Prediction/blob/main/predictions.py): Loads trained models to make predictions on detected faces
 
 - utilizes MTCNN (Multi-Task Cascaded Convolutional Neural Networks) for face detection 
 - uses PIL (Python Imaging Library) to draw color-coded boxes over detected faces
@@ -61,16 +61,16 @@ The [IMDB-Clean](https://www.kaggle.com/datasets/yuulind/imdb-clean) dataset was
 - generates different label styles depending on the face proximity (to prevent label overlap)
 - displays a table containing the faces detected with their labels and confidence percentages
 
-3. [predictions_streamlit.py](): Streamlit app version of [predictions.py]() that loads models directly from Hugging Face instead of local paths
+3. [predictions_streamlit.py](https://github.com/hala-aj/Age-and-Gender-Prediction/blob/main/predictions_streamlit.py): Streamlit app version of [predictions.py](https://github.com/hala-aj/Age-and-Gender-Prediction/blob/main/predictions.py) that loads models directly from Hugging Face instead of local paths
 
-4. [analysis.ipynb](): provides statistical analysis of a given directory and saves the results in a specified directory
+4. [analysis.ipynb](https://github.com/hala-aj/Age-and-Gender-Prediction/blob/main/statistical_analysis/analysis.ipynb): provides statistical analysis of a given directory and saves the results in a specified directory
 - enables user interactivity by allowing users to modify metrics applied to the dataset they provide, enhancing the analytical experience and tailoring insights to specific needs
 - utilizes MTCNN to crop the faces in the input directory and save them to the specified output directory along with their predictions in csv format
 - saves a summary of the data to a csv file along with plots
 
-5. [analysis.py](): compact form of [analysis.ipynb]() to run locally (for automation)
+5. [analysis.py](https://github.com/hala-aj/Age-and-Gender-Prediction/blob/main/statistical_analysis/analysis.py): compact form of [analysis.ipynb](https://github.com/hala-aj/Age-and-Gender-Prediction/blob/main/statistical_analysis/analysis.ipynb) to run locally (for automation)
 
-6. [requirements.txt](): file containing all the necessary dependencies for environment setup
+6. [requirements.txt](https://github.com/hala-aj/Age-and-Gender-Prediction/blob/main/requirements.txt): file containing all the necessary dependencies for environment setup
 
 
 
